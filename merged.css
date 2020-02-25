@@ -1,0 +1,36 @@
+html, body {
+	font-family: Georgia, serif;
+	margin: 0;
+}
+
+body {
+
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	font-size: 24px;
+	padding: 20px;
+}
+
+nav{
+	
+}
+
+section {
+	font-size: 16px;
+	text-align: center;
+}
+
+figure img{
+	text-align: center;
+	width: 70%;	
+}
+
+footer{
+	
+}
