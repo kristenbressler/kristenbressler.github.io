@@ -1,0 +1,240 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial;
+	overflow: auto;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+
+}
+
+header figure{
+	text-align: left;
+	width: 100%;
+	margin: 0;
+}
+
+header figure img{
+	width: 100%;	
+}
+
+nav{
+	background-color: rgb(95,189,208);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+nav a{
+	color: rgb(255,252,129);
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: rgb(255,222,63);
+	background-color: rgb(0,174,203);
+}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	padding:0;
+	margin:0;
+}
+
+section{
+	overflow: auto;
+}
+
+section h1{
+	text-align: center;
+}
+
+section figure{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	float: center;
+	overflow: auto;
+}
+
+section figure img{
+	width: 100%;	
+}
+
+section figure figcaption{
+	text-align: center;
+}
+
+footer{
+	padding: 10px 0;
+	text-align: center;
+	color: white;
+}
+
+.leftcol{
+	border-radius: 5px;
+	background-color: rgb(255,255,255);
+	width: 42%;
+	float: left;
+	margin: 2%;
+	padding: 1%;
+	font-size: 100%;
+}
+
+body#spring .leftcol{
+	border: 5px solid rgb(115,203,139);
+}
+
+body#summer .leftcol{
+	border: 5px solid rgb(255,211,8);
+}
+
+body#autumn .leftcol{
+	border: 5px solid rgb(240,141,12);
+}
+
+body#winter .leftcol{
+	border: 5px solid rgb(210,239,243);
+}
+
+.rightcol{
+	border-radius: 5px;
+	background-color: rgb(255,255,255);
+	width: 42%;
+	float: right;
+	margin: 2%;
+	padding: 1%;
+	font-size: 100%;
+}
+
+body#spring .rightcol{
+	border: 5px solid rgb(115,203,139);
+}
+
+body#summer .rightcol{
+	border: 5px solid rgb(255,211,8);
+}
+
+body#autumn .rightcol{
+	border: 5px solid rgb(240,141,12);
+}
+
+body#winter .rightcol{
+	border: 5px solid rgb(210,239,243);
+}
+
+.seasons{
+	background-color: black;
+}
+
+body#spring{
+	background-image: url("spring-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+body#summer{
+	background-image: url("summer-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+body#autumn{
+	background-image: url("autumn-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: rgb(185,110,9);
+}
+
+body#winter{
+	background-image: url("winter-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+body#seasons{
+	background-image: url("seasons-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+body#spring section{
+	background-color: rgba(185,233,175,0.9);
+}
+
+body#summer section{
+	background-color: rgba(255,181,36,0.9);
+}
+
+body#autumn section{
+	background-color: rgba(185,110,9,0.9);
+}
+
+body#winter section{
+	background-color: rgba(175,195,204,0.9);
+}
+
+body#seasons section{
+	background-color: rgba(204, 204, 204,0.9);
+}
+
+body#seasons section h1{
+	font-size: 50px;
+}
+
+body#spring footer{
+	background-color: rgb(115,203,139);
+}
+
+body#summer footer{
+	background-color: rgb(255,211,8);
+}
+
+body#autumn footer{
+	background-color: rgb(240,141,12);
+}
+
+body#winter footer{
+	background-color: rgb(210,239,243);
+}
+
+body#seasons footer{
+	background-color: rgb(166, 166, 166);
+}
+
+body#seasons section figure{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+	padding: 0;
+	overflow: auto;
+}
+
+body#seasons section figure img{
+	width: 100%;	
+}
+
+ul.icons {
+    text-align: center;
+}
+
+ul.icons li {
+	display: inline;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
