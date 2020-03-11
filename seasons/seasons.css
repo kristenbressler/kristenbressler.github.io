@@ -144,12 +144,14 @@ body#spring{
 	background-image: url("spring-background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: rgb(185,233,175);
 }
 
 body#summer{
 	background-image: url("summer-background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: rgb(255,181,36);
 }
 
 body#autumn{
@@ -163,12 +165,14 @@ body#winter{
 	background-image: url("winter-background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: rgb(175,195,204);
 }
 
 body#seasons{
 	background-image: url("seasons-background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: rgb(204, 204, 204);
 }
 
 body#spring section{
@@ -230,7 +234,7 @@ body#seasons section figure img{
 
 ul.icons {
     text-align: center;
-    padding: 0;
+	padding: 0;
     margin: 0;
 }
 
