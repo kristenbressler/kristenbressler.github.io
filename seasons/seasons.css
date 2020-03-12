@@ -6,6 +6,7 @@ html, body {
 body {
 	font-family: Arial;
 	overflow: auto;
+	background-attachment: fixed;
 }
 
 #wrap {
@@ -91,7 +92,7 @@ footer{
 	float: left;
 	margin: 2%;
 	padding: 1%;
-	font-size: 100%;
+	font-size: 98%;
 }
 
 body#spring .leftcol{
