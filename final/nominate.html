@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Mission</title>
+		<link href = "final.css" rel = "stylesheet" type = text/css>
+		<link rel="shortcut icon" href="media/icon.png"/>
+		<link rel="stylesheet" href="reveal.css">
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<script type="text/javascript" src="jquery.reveal.js"></script>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160819886-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-160819886-1');
+		</script>		
+		
+		<script>
+			$('#myForm').on('submit', function(e){
+				  $('#myModal').modal('show');
+				  e.preventDefault();
+				});
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id="nomModal" class="reveal-modal">
+			<h2>You are about to nominate a squirrel for the mission!</h2>
+			<p>Are you sure you are ready to nominate this squirrel?</p>
+			<a href = "index.html"> 
+				<button>Yes, sumbit my nomination!</button>
+			</a>
+			
+			<a class="close-reveal-modal"> 
+				<button>No, make changes to nomination.</button>
+			</a>
+		</div>
+	
+		<div id = "wrap">
+			<header>
+				<img src = "media/header.jpg" alt = "Image of Mars Landscape" title = "Mars">
+			</header>
+			
+			<nav>
+					<li> <a href = "index.html">Home</a> </li>
+					<li> <a href = "mission.html">Mission</a> </li>
+						<div class = "dropdown">
+							<li class = "dropdown-btn"><a href = "crew.html"> Crew</a> </li>
+							<div class = "dropdown-item">
+								<li><a href = "neil-acornstrong.html">Neil Acronstrong</a> </li>
+								<li><a href = "fuzz-aldrin.html">Fuzz Aldrin</a> </li>
+								<li><a href = "charles-chip-duke.html">Charles "Chip" Duke</a> </li>
+								<li><a href = "scuri-gagarin.html">Scuri Gagarin</a> </li>
+								<li><a href = "fly-gardner.html">Fly Gardner</a> </li>
+								<li><a href = "squirrely-ride.html">Squirrely Ride</a> </li>
+							</div>
+						</div>
+					<li> <a href = "nominate.html">Nominate</a> </li>
+			</nav>
+			
+			<div id = "nominate">
+				<section>
+					<h1>Nominate a squirrel for the mission.</h1>
+					<form method = "post" id = "nomForm" onsubmit="openModal()">
+						<fieldset>
+							<legend>Your Information</legend>
+							<p><label for = "fname">First Name</label><br>
+							<input type = "text" id = "fname" name = "fname" required></p>
+							
+							<p><label for = "lname">Last Name</label><br>
+							<input type = "text" id = "lname" name = "lname" required></p>
+							
+							<p><label for = "email">Email</label><br>
+							<input type = "email" id = "email" name = "email" required></p>
+							
+							<p><label for = "phone">Phone Number</label><br>
+							<input type = "tel" id = "phone" name = "phone"></p>
+							
+							<p> How do you know this squirrel? </p>
+								<input type = "checkbox" id = "search" name = "howknow" value = "yard">
+								<label for = "search">Lives in my yard</label> <br>
+								
+								<input type = "checkbox" id = "ad" name = "howknow" value = "park">
+								<label for = "ad">Saw it at a park</label> <br>
+								
+								<input type = "checkbox" id = "friend" name = "howknow" value = "birdfeeder">
+								<label for = "friend">Eats from my bird feeder</label> <br>
+								
+								<input type = "checkbox" id = "other" name = "howknow" value = "other">
+								<label for = "other">Other</label>
+								
+							<p>Why are you nominating the squirrel for this mission?</p>	
+								<textarea name = "reference" id = "reference" placeholder = "Why are you nominating the squirrel for this mission?"></textarea>
+						</fieldset>
+						
+						<fieldset>
+							<legend>Squirrel's Information</legend>
+						
+							<p><label for = "fname">First Name</label><br>
+							<input type = "text" id = "squirrelfname" name = "fname" required></p>
+							
+							<p><label for = "lname">Last Name</label><br>
+							<input type = "text" id = "squirrellname" name = "lname" required></p>
+							
+							<p><label for = "email">Email</label><br>
+							<input type = "email" id = "squirrelemail" name = "email" required></p>
+							
+							<p><label for = "phone">Phone Number</label><br>
+							<input type = "tel" id = "squirrelphone" name = "phone"></p>
+							
+							
+							<p>Is the squirrel aware that you have nominated it for the mission?</p>
+								<input type = "radio" id = "yes" name = "nominate" value = "yes">
+								<label for = "yes">Yes</label> <br>
+								
+								<input type = "radio" id = "no" name = "nominate" value = "no">
+								<label for = "no">No</label>
+								
+							<p>Please upload an image of the squirrel.</p>
+								<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+								
+							<p>
+								<a href="#" data-reveal-id="nomModal" data-animation="fade">
+							<input type = "submit" name = "submit" value = "Nominate!" class = "button">
+						</a>
+							</p>
+						</fieldset>
+					</form>
+					
+				</section>
+			</div>
+			
+			<footer>
+				National Aeronautics and Squirrel Space Administration &reg
+			</footer>
+			
+		</div> <!-- close wrap -->
+		
+	</body>
+
+</html>
