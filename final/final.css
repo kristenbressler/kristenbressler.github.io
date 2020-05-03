@@ -156,6 +156,11 @@ p{
 	color: #bc543c;
 }
 
+#mission section #slider{
+	width: 34%;
+	margin: 0 auto;
+}
+
 #crew section{
 	/* margin: 0 0 0 20%; */
 	padding: 0 0 0 3%;
