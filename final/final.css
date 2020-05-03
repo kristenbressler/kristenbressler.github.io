@@ -296,56 +296,13 @@ p{
 	text-decoration: underline;
 }
 
-form{
-	width: 50%;
-	margin: 0 auto;
-	color: white;
-	padding: 0;
+#nominate .embed-container{
+	height: 900px;
 }
 
-fieldset{
-	background-color: #4c4c4c;
-	border-radius: 1em;
-	border: 4px #bc543c solid;
-	margin: 1%;
-	font-family: Verdana;
-}
-
-legend{
-	font-family: 'aero', Serif;
-	font-size: 30px;
-	color: white;
-	font-weight: bold;
-	background-color: #bc543c;
-	padding: 5px 10px;
-	border-radius: 20px 4px 20px 4px;
-}
-
-textarea{
-	width: 99%;
-	height: 100px;
-}
-
-input{
-	/* background-color: yellow; */
-}
-
-#nomModal{
-	background-color: #4c4c4c;
-	text-align: center;
-}
-
-#nomModal button{
-	background-color: #1b1b1b;
-	color: white;
-	font-size: 1.5em;
-	border: 2px white solid;
-	font-family: 'aero', Serif;
-	margin: 15px auto;
-}
-
-#nomModal button:hover{
-	background-color: #bc543c;
+#nominate .embed-container iframe{
+	height: 100%;
+	border: 0;
 }
 
 .button{
@@ -451,7 +408,11 @@ input{
 	#crew-article figure{
 		width: 50%;
 		margin:0 auto;
-	}	
+	}
+
+	#nominate .embed-container{
+	height: 1200px;
+	}
 }
 
 /* Change crew-profile aside to hamburger hidden*/
