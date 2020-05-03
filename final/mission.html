@@ -48,7 +48,7 @@
 			</nav>
 			
 			<div id = "mission">
-				<section>
+				<section>					
 					<h1>
 						About the Mission:
 					</h1>
@@ -88,21 +88,21 @@
 					<h2>
 						What squirrels are you sending to Mars?
 					</h2>
+					
+					<p>
+						You can see the entire list of the crew on our <a href = "crew.html">crew page</a> or in the slideshow below. We are currently planning on sending six squirrels to Mars: Neil Acronstrong, Fuzz Aldrin, Charles "Chip" Duke, Scuri Gagarin, Fly Gardner, and Squirrely Ride. But we are always looking for more squirrels to send on our mission. If you know of a squirrel that can be sent on our mission, nominate them on our <a href = "nominate.html">nomination page</a>.
+					</p>
 			
 					<div class="slider-wrapper theme-default">
 						<div id="slider" class="nivoSlider">
-							<a href="neil-acornstrong.html"><img src="media/neil-acornstrong.jpg" data-thumb="media/neil-acornstrong.jpg" alt="" title="Neil Acornstrong"/></a>
-							<a href="fuzz-aldrin.html"><img src="media/fuzz-aldrin.jpg" data-thumb="media/fuzz-aldrin.jpg" alt="" title="Fuzz Aldrin"/></a>
-							<a href="charles-chip-duke.html"><img src="media/charles-chip-duke.jpg" data-thumb="media/charles-chip-duke.jpg" alt="" title="Charles "Chip" Duke"/></a>
-							<a href="scuri-gagarin.html"><img src="media/scuri-gagarin.jpg" data-thumb="media/scuri-gagarin.jpg" alt="" title="Scuri Gagarin"/></a>
-							<a href="fly-gardner.html"><img src="media/fly-gardner.jpg" data-thumb="media/fly-gardner.jpg" alt="" title="Fly Gardner"/></a>
-							<a href="squirrely-ride.html"><img src="media/squirrely-ride.jpg" data-thumb="media/squirrely-ride.jpg" alt="" title="Squirrely Ride"/></a>										
+							<a href="neil-acornstrong.html"><img src="media/neil-acornstrong.jpg" data-thumb="media/neil-acornstrong.jpg" alt="" data-transition="slideInLeft" title="Neil Acornstrong"/></a>
+							<a href="fuzz-aldrin.html"><img src="media/fuzz-aldrin.jpg" data-thumb="media/fuzz-aldrin.jpg" alt="" data-transition="slideInLeft"  title="Fuzz Aldrin"/></a>
+							<a href="charles-chip-duke.html"><img src="media/charles-chip-duke.jpg" data-thumb="media/charles-chip-duke.jpg" alt="" data-transition="slideInLeft" title="Charles ''Chip'' Duke"/></a>
+							<a href="scuri-gagarin.html"><img src="media/scuri-gagarin.jpg" data-thumb="media/scuri-gagarin.jpg" alt="" data-transition="slideInLeft" title="Scuri Gagarin"/></a>
+							<a href="fly-gardner.html"><img src="media/fly-gardner.jpg" data-thumb="media/fly-gardner.jpg" alt="" data-transition="slideInLeft" title="Fly Gardner"/></a>
+							<a href="squirrely-ride.html"><img src="media/squirrely-ride.jpg" data-thumb="media/squirrely-ride.jpg" alt="" data-transition="slideInLeft" title="Squirrely Ride"/></a>										
 						</div>
 					</div>
-					
-					<p>
-						You can see the entire list of the crew on our <a href = "crew.html">crew page</a>. We are currently planning on sending six squirrels to Mars: Neil Acronstrong, Fuzz Aldrin, Charles "Chip" Duke, Scuri Gagarin, Fly Gardner, and Squirrely Ride. But we are always looking for more squirrels to send on our mission. If you know of a squirrel that can be sent on our mission, nominate them on our <a href = "nominate.html">nomination page</a>.
-					</p>
 			
 					<h2>
 						Where is your headquarters located?
@@ -118,10 +118,19 @@
 			</div>
 			
 			<footer>
+				
 				National Aeronautics and Squirrel Space Administration &reg
 				<br> 
 				<a href="https://www.freepik.com/free-photos-vectors/abstract">Background created by freepik - www.freepik.com</a>
 			</footer>
+			
+			<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+			<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+			<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider();
+			});
+			</script>
 			
 		</div> <!-- close wrap -->
 		
